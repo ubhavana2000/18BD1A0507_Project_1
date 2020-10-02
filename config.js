@@ -1,3 +1,3 @@
 module.exports = {
-  secret: 'worldisfullofdevelopers'
+  secret: 'kmit micro project'
 };
