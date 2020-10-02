@@ -44,7 +44,7 @@ app.post('/SearchHospByName',middleware.checkToken,(req,res)=>{
 });
 
 app.put('/UpdateVentilatorDetails',middleware.checkToken,(req,res)=>{
-    var vid=req.query.vid;
+    var vid={vid:req.query.vid};
     console.log(vid);
     var newvalues={ $set: { status: req.query.status} };
     db.collection("Ventilators").updateOne(vid, newvalues, function(err, result){
