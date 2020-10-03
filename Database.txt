@@ -1,0 +1,156 @@
+> db.Hospital.find().pretty()
+{
+        "_id" : ObjectId("5f748f5935567c9cc48514d9"),
+        "hId" : "1",
+        "name" : "Apollo hospital",
+        "address" : "Plot No. 3-5-874/1 Near, Old MLA QuartersRd, Hyderguda,Hyderabad,Telangana 500029",
+        "contactNo" : "040-23231380"
+}
+{
+        "_id" : ObjectId("5f748f6835567c9cc48514da"),
+        "hId" : "2",
+        "name" : "KIMS hospital",
+        "address" : "1-8-31/1, Ministers Road, Begumpet Secunderabad, Andhra Pradesh, India",
+        "contactNo" : "040-44885000"
+}
+{
+        "_id" : ObjectId("5f748f7535567c9cc48514db"),
+        "hId" : "3",
+        "name" : "Gandhi hospital",
+        "address" : "6-1-34, Padmarao Nagar, Musheerabad, Hyderabad - 500025",
+        "contactNo" : "040-27505566"
+}
+{
+        "_id" : ObjectId("5f748fdf35567c9cc48514dc"),
+        "hId" : "4",
+        "name" : "Yashoda hospital",
+        "address" : "Plot No. 156, Alexander Road, Behind Hari Hara Kala Bhavan, Hyderabad, Telangana - 500003",
+        "contactNo" : "040-45674567"
+}
+{
+        "_id" : ObjectId("5f748fe935567c9cc48514dd"),
+        "hId" : "5",
+        "name" : "Care hospital",
+        "address" : "Rd Number1,Prem Nagar,Banjara Hills,Hyderabad,Telangana,500034",
+        "contactNo" : "040-34345656"
+}
+> db.Ventilators.find().pretty()
+{
+        "_id" : ObjectId("5f74907035567c9cc48514de"),
+        "hId" : "1",
+        "name" : "Apollo hospital",
+        "vid" : "v11",
+        "status" : "occupied"
+}
+{
+        "_id" : ObjectId("5f74952035567c9cc48514e3"),
+        "hId" : "1",
+        "name" : "Apollo hospital",
+        "vid" : "v12",
+        "status" : "occupied"
+}
+{
+        "_id" : ObjectId("5f7495c435567c9cc48514e4"),
+        "hId" : "1",
+        "name" : "Apollo hospital",
+        "vid" : "v13",
+        "status" : "Maintenance"
+}
+{
+        "_id" : ObjectId("5f7495e835567c9cc48514e5"),
+        "hId" : "1",
+        "name" : "Apollo hospital",
+        "vid" : "v14",
+        "status" : "Available"
+}
+{
+        "_id" : ObjectId("5f74960735567c9cc48514e6"),
+        "hId" : "1",
+        "name" : "Apollo hospital",
+        "vid" : "v15",
+        "status" : "Available"
+}
+{
+        "_id" : ObjectId("5f74907835567c9cc48514df"),
+        "hId" : "2",
+        "name" : "KIMS hospital",
+        "vid" : "v21",
+        "status" : "Available"
+}
+{
+        "_id" : ObjectId("5f74961535567c9cc48514e7"),
+        "hId" : "2",
+        "name" : "KIMS hospital",
+        "vid" : "v22",
+        "status" : "Maintenance"
+}
+{
+        "_id" : ObjectId("5f74962c35567c9cc48514e8"),
+        "hId" : "2",
+        "name" : "KIMS hospital",
+        "vid" : "v23",
+        "status" : "occupied"
+}
+{
+        "_id" : ObjectId("5f74963b35567c9cc48514e9"),
+        "hId" : "2",
+        "name" : "KIMS hospital",
+        "vid" : "v24",
+        "status" : "Available"
+}
+{
+        "_id" : ObjectId("5f74908435567c9cc48514e0"),
+        "hId" : "3",
+        "name" : "Gandhi hospital",
+        "vid" : "v31",
+        "status" : "occupied"
+}
+{
+        "_id" : ObjectId("5f74965635567c9cc48514ea"),
+        "hId" : "3",
+        "name" : "Gandhi hospital",
+        "vid" : "v32",
+        "status" : "Available"
+}
+{
+        "_id" : ObjectId("5f74966335567c9cc48514eb"),
+        "hId" : "3",
+        "name" : "Gandhi hospital",
+        "vid" : "v33",
+        "status" : "Maintenance"
+}
+{
+        "_id" : ObjectId("5f74908e35567c9cc48514e1"),
+        "hId" : "4",
+        "name" : "Yashoda hospital",
+        "vid" : "v41",
+        "status" : "Available"
+}
+{
+        "_id" : ObjectId("5f74968335567c9cc48514ec"),
+        "hId" : "4",
+        "name" : "Yashoda hospital",
+        "vid" : "v42",
+        "status" : "Available"
+}
+{
+        "_id" : ObjectId("5f74909b35567c9cc48514e2"),
+        "hId" : "5",
+        "name" : "Care hospital",
+        "vid" : "v51",
+        "status" : "occupied"
+}
+{
+        "_id" : ObjectId("5f74969235567c9cc48514ed"),
+        "hId" : "5",
+        "name" : "Care hospital",
+        "vid" : "v52",
+        "status" : "occupied"
+}
+{
+        "_id" : ObjectId("5f74969d35567c9cc48514ee"),
+        "hId" : "5",
+        "name" : "Care hospital",
+        "vid" : "v53",
+        "status" : "occupied"
+}
